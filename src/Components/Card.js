@@ -5,33 +5,9 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Rating from '@mui/material/Rating';
 import { createTheme } from '@mui/material'
-import { style, ThemeProvider } from '@mui/system';
 
-const theme = createTheme({
-    components: {
-        MuiTypography: {
-            variants:
-                [
-                    {
-                        props: {
-                            variant: 'body2',
-                        },
-                        style: {
-                            fontSize: 15,
-                        }
-                    },
-                    {
-                        props: {
-                            variant: 'body3',
-                        },
-                        style: {
-                            fontSize: 9,
-                        }
-                    }
-                ]
-        }
-    }
-})
+
+
 const TourCard = () => {
     return <Grid item xs={3}>
         <ThemeProvider theme={theme}>

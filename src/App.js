@@ -17,13 +17,13 @@ function App() {
           <Banner className='body' />
         </Box>
         <Container>
-          <Grid container spacing={10}>
+          {/* <Grid container spacing={10}>
+           <Card />
+            <Card />
+            <Card /> 
             <Card />
             <Card />
-            <Card />
-            <Card />
-            <Card />
-          </Grid>
+          </Grid> */}
         </Container>
 
       </div >

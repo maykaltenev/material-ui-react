@@ -2,7 +2,7 @@ import './Banner.css'
 
 const Banner = () => {
     return <div class='body'>
-        <div class="logo"><b>B<span>ea</span>ver<span>L</span>ounge</b></div>
+        <div class="logo"><b>B<span>r</span>i<span>bb</span>el</b></div>
     </div>
 
 }

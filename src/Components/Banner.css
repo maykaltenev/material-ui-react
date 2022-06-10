@@ -4,8 +4,7 @@ html,
   height: 100%;
 }
 .body {
-  background: url("https://assets.mixkit.co/videos/preview/mixkit-purple-cyberpunk-space-with-digital-worlds-17995-large.mp4");
-
+  background: url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg);
   background-size: cover;
   margin: 0;
 }
